@@ -10,11 +10,12 @@
 
     <header id="home">
         <nav class="flex justify-between w-3/4 mx-auto py-6">
-            <div class="flex">
+            <svg class="mr-5 block md:hidden" width="25px" height="25px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>search</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-256.000000, -1139.000000)" fill="#000000"> <path d="M269.46,1163.45 C263.17,1163.45 258.071,1158.44 258.071,1152.25 C258.071,1146.06 263.17,1141.04 269.46,1141.04 C275.75,1141.04 280.85,1146.06 280.85,1152.25 C280.85,1158.44 275.75,1163.45 269.46,1163.45 L269.46,1163.45 Z M287.688,1169.25 L279.429,1161.12 C281.591,1158.77 282.92,1155.67 282.92,1152.25 C282.92,1144.93 276.894,1139 269.46,1139 C262.026,1139 256,1144.93 256,1152.25 C256,1159.56 262.026,1165.49 269.46,1165.49 C272.672,1165.49 275.618,1164.38 277.932,1162.53 L286.224,1170.69 C286.629,1171.09 287.284,1171.09 287.688,1170.69 C288.093,1170.3 288.093,1169.65 287.688,1169.25 L287.688,1169.25 Z" id="search" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>  
+            <div class="hidden md:flex">
                 <svg class="mr-5" width="25px" height="25px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>search</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-256.000000, -1139.000000)" fill="#000000"> <path d="M269.46,1163.45 C263.17,1163.45 258.071,1158.44 258.071,1152.25 C258.071,1146.06 263.17,1141.04 269.46,1141.04 C275.75,1141.04 280.85,1146.06 280.85,1152.25 C280.85,1158.44 275.75,1163.45 269.46,1163.45 L269.46,1163.45 Z M287.688,1169.25 L279.429,1161.12 C281.591,1158.77 282.92,1155.67 282.92,1152.25 C282.92,1144.93 276.894,1139 269.46,1139 C262.026,1139 256,1144.93 256,1152.25 C256,1159.56 262.026,1165.49 269.46,1165.49 C272.672,1165.49 275.618,1164.38 277.932,1162.53 L286.224,1170.69 C286.629,1171.09 287.284,1171.09 287.688,1170.69 C288.093,1170.3 288.093,1169.65 287.688,1169.25 L287.688,1169.25 Z" id="search" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>
                 <input class="focus:outline-none" type="text" placeholder="SEARCH...">
             </div>
-            <ul class="flex justify-between gap-5">
+            <ul class="hidden lg:flex justify-between gap-5 ">
                 <li>
                     <a href="#home">HOME</a>
                 </li>
@@ -28,6 +29,7 @@
                     <a href="#footer">ABOUT</a>
                 </li>
             </ul>
+            <svg class="block lg:hidden" width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
         </nav>
 
     </header>
@@ -38,15 +40,15 @@
 
     <section id="cardscont">
 
-        <div class="w-3/4 mx-auto flex border border-gray-300 my-10">
-            <img src="https://images.unsplash.com/photo-1617104424032-b9bd6972d0e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHwy">
+        <div class="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row border border-gray-300 my-10">
+            <img class="w-full md:w-1/2" src="https://images.unsplash.com/photo-1617104424032-b9bd6972d0e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHwy">
             <div class="flex flex-col justify-between m-10">
                 <div class="flex flex-col">
                     <div class="flex gap-5">
                         <img class="rounded-full" src="https://i.pinimg.com/736x/d2/98/4e/d2984ec4b65a8568eab3dc2b640fc58e.jpg" width="48px">
                         <div class="flex flex-col">
                             <p>Admin</p>
-                            <p>Mar 21, 2023 . 1 min</p>
+                            <p>Aug 9, 2003 . 4 min</p>
                         </div>
                     </div>
                     <h2 class="text-2xl my-2">PLAYING WITH PATTERNS</h2>
@@ -62,15 +64,15 @@
             </div>
         </div>
 
-        <div class="w-3/4 mx-auto flex border border-gray-300 my-10">
-            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDI%3D">
+        <div class="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row border border-gray-300 my-10">
+            <img class="w-full md:w-1/2" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDI%3D">
             <div class="flex flex-col justify-between m-10">
                 <div class="flex flex-col">
                     <div class="flex gap-5">
                         <img class="rounded-full" src="https://i.pinimg.com/736x/d2/98/4e/d2984ec4b65a8568eab3dc2b640fc58e.jpg" width="48px">
                         <div class="flex flex-col">
                             <p>Admin</p>
-                            <p>Mar 21, 2023 . 1 min</p>
+                            <p>Apr 25, 2022 . 10 min</p>
                         </div>
                     </div>
                     <h2 class="text-2xl my-2">PLAYING WITH PATTERNS</h2>
@@ -86,15 +88,15 @@
             </div>
         </div>
 
-        <div class="w-3/4 mx-auto flex border border-gray-300 my-10">
-            <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHwy">
+        <div class="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row border border-gray-300 my-10">
+            <img class="w-full md:w-1/2" src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHwy">
             <div class="flex flex-col justify-between m-10">
                 <div class="flex flex-col">
                     <div class="flex gap-5">
                         <img class="rounded-full" src="https://i.pinimg.com/736x/d2/98/4e/d2984ec4b65a8568eab3dc2b640fc58e.jpg" width="48px">
                         <div class="flex flex-col">
                             <p>Admin</p>
-                            <p>Mar 21, 2023 . 1 min</p>
+                            <p>May 10, 2022 . 1 min</p>
                         </div>
                     </div>
                     <h2 class="text-2xl my-2">PLAYING WITH PATTERNS</h2>
@@ -110,15 +112,15 @@
             </div>
         </div>
 
-        <div class="w-3/4 mx-auto flex border border-gray-300 my-10">
-            <img src="https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHwy">
+        <div class="w-full lg:w-3/4 mx-auto flex flex-col md:flex-row border border-gray-300 my-10">
+            <img class="w-full md:w-1/2" src="https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHwy">
             <div class="flex flex-col justify-between m-10">
                 <div class="flex flex-col">
                     <div class="flex gap-5">
                         <img class="rounded-full" src="https://i.pinimg.com/736x/d2/98/4e/d2984ec4b65a8568eab3dc2b640fc58e.jpg" width="48px">
                         <div class="flex flex-col">
                             <p>Admin</p>
-                            <p>Mar 21, 2023 . 1 min</p>
+                            <p>Dec 12, 2023 . 1 hour</p>
                         </div>
                     </div>
                     <h2 class="text-2xl my-2">PLAYING WITH PATTERNS</h2>
@@ -137,16 +139,16 @@
     </section>
 
     <div class="flex justify-center">
-        <button class="px-40 py-4 bg-black text-white">View All Posts</button>
+        <button class=" px-20 md:px-40 py-4 bg-black text-white">View All Posts</button>
     </div>
 
-    <div id="gallery" class="w-3/4 mx-auto my-16">
+    <div id="gallery" class="w-full lg:w-3/4 mx-auto my-16">
         <h4 class="text-2xl my-5">GALLERY</h4>
-        <div class="flex gap-5">
-            <img class="w-1/4" src="https://images.unsplash.com/photo-1604580040660-f0a7f9abaea6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
-            <img class="w-1/4" src="https://images.unsplash.com/photo-1572048572872-2394404cf1f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
-            <img class="w-1/4" src="https://images.unsplash.com/photo-1602028815636-407eaab32c8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
-            <img class="w-1/4" src="https://images.unsplash.com/photo-1588471980726-8346cb477a33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
+        <div class="flex flex-col md:flex-row gap-5">
+            <img class="w-11/12 mx-auto lg:w-1/4 " src="https://images.unsplash.com/photo-1604580040660-f0a7f9abaea6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
+            <img class="w-11/12 mx-auto lg:w-1/4 " src="https://images.unsplash.com/photo-1572048572872-2394404cf1f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
+            <img class="w-11/12 mx-auto lg:w-1/4 " src="https://images.unsplash.com/photo-1602028815636-407eaab32c8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
+            <img class="w-11/12 mx-auto lg:w-1/4 " src="https://images.unsplash.com/photo-1588471980726-8346cb477a33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGludGVyaW9yJTIwZGVzaWdufGVufDB8MHwwfHx8Mg%3D%3D">
         </div>
 
     </div>
@@ -155,14 +157,14 @@
     <footer id="footer" class="bg-black">
 
         <h1 class=" py-10 text-4xl tracking-wider text-white text-center">DESIGN <span class="font-extralight">FOR</span> LIFE</h1>
-            <div class="w-3/4 mx-auto flex justify-between items-center py-10">
+            <div class="w-full md:w-3/4 mx-auto flex justify-evenly items-center py-10">
 
 
 
 
 
     
-                <div class="flex gap-2">
+                <div class="flex flex-col md:flex-row gap-2">
                     <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>instagram [#ffffff]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#ffffff]"> </path> </g> </g> </g> </g></svg>
                     <svg fill="#ffffff" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="7935ec95c421cee6d86eb22ecd12951c"> <path style="display: inline;" d="M220.646,338.475C207.223,408.825,190.842,476.269,142.3,511.5 c-14.996-106.33,21.994-186.188,39.173-270.971c-29.293-49.292,3.518-148.498,65.285-124.059 c76.001,30.066-65.809,183.279,29.38,202.417c99.405,19.974,139.989-172.476,78.359-235.054 C265.434-6.539,95.253,81.775,116.175,211.161c5.09,31.626,37.765,41.22,13.062,84.884c-57.001-12.65-74.005-57.6-71.822-117.533 c3.53-98.108,88.141-166.787,173.024-176.293c107.34-12.014,208.081,39.398,221.991,140.376 c15.67,113.978-48.442,237.412-163.23,228.529C258.085,368.704,245.023,353.283,220.646,338.475z"> </path> </g> </g></svg>
                     <svg width="30px" height="30px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.253 5.038c0.011 0.151 0.011 0.302 0.011 0.454 0 4.605-3.506 9.912-9.913 9.912-1.974 0-3.808-0.572-5.351-1.564 0.281 0.032 0.551 0.042 0.842 0.042 1.629 0 3.127-0.55 4.325-1.488-1.532-0.032-2.815-1.036-3.257-2.417 0.215 0.032 0.431 0.054 0.656 0.054 0.314 0 0.627-0.043 0.918-0.118-1.596-0.324-2.794-1.726-2.794-3.419 0-0.011 0-0.033 0-0.043 0.464 0.258 1.003 0.42 1.575 0.442-0.938-0.626-1.553-1.694-1.553-2.901 0-0.647 0.173-1.241 0.475-1.759 1.715 2.115 4.293 3.496 7.184 3.646-0.055-0.259-0.087-0.529-0.087-0.799 0-1.919 1.554-3.483 3.484-3.483 1.003 0 1.909 0.42 2.546 1.1 0.787-0.151 1.541-0.442 2.211-0.841-0.259 0.809-0.809 1.489-1.532 1.919 0.702-0.075 1.381-0.269 2.007-0.539-0.475 0.69-1.068 1.306-1.747 1.802z" fill="#ffffff"></path> </g></svg>
@@ -177,7 +179,7 @@
                     </div>
                 </div>
     
-                <p class="text-white">© 2035 by Design for Life. <br>Powered and secured by leeJhined</p>
+                <p class="text-white">© 2035 by Design for Life.Powered and secured by leeJhined</p>
     
     
     
