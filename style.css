@@ -961,6 +961,10 @@ video {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:items-center {
+    align-items: center;
+  }
+
   .max-sm\:text-center {
     text-align: center;
   }
